@@ -240,7 +240,7 @@ def main(args):
     else:
         FindChannel (IPAddr,portNum,Device,Channel)
 
-    #set exit flag so that our receive thread can exit
+    #Set exit flag so that our receive thread can exit
     exit = True
    
 if __name__=="__main__":
